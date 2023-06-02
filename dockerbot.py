@@ -4,7 +4,7 @@ import subprocess
 import psutil
 from datetime import datetime
 
-bot = telebot.TeleBot("5827943182:AAHfiIvy5CgDpyQ7BdBC8QjfZtatP6H6_Fg")
+bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
